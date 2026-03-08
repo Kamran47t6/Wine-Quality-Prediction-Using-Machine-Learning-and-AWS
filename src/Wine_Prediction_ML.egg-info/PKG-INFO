@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: Wine_Prediction_ML
+Version: 1.0.2
+Summary: A Machine Learning project to predict wine quality
+Home-page: https://github.com/Kamran47t6/Wine-Quality-Prediction-Using-Machine-Learning-and-AWS
+Author: Kamran47t6
+Author-email: muhammadkamran5862@gmail.com
+Project-URL: Bug Tracker, https://github.com/Kamran47t6/Wine-Quality-Prediction-Using-Machine-Learning-and-AWS/issues
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+```bash
+conda create -n mlproject python=3.10 -y
+```
