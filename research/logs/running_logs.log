@@ -6,3 +6,8 @@
 [2026-03-15 03:26:59,863: INFO:4261508835:Splited data into training and test sets]
 [2026-03-15 03:26:59,866: INFO:4261508835:(857, 13)]
 [2026-03-15 03:26:59,870: INFO:4261508835:(286, 13)]
+[2026-03-15 04:17:11,108: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-15 04:17:11,113: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-15 04:17:11,118: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-15 04:17:11,121: INFO:common:created directory at: artifacts]
+[2026-03-15 04:17:11,124: INFO:common:created directory at: artifacts/model_trainer]
