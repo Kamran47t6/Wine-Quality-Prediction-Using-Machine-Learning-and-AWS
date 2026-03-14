@@ -1,2 +1,63 @@
 [2026-03-09 06:50:49,244: INFO:main:Starting the main.py script]
 [2026-03-14 01:21:45,910: INFO:main:Starting the main.py script]
+[2026-03-14 07:57:59,349: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 07:57:59,360: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 07:57:59,372: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 07:57:59,376: INFO:common:created directory at: artifacts]
+[2026-03-14 07:57:59,381: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 07:59:27,854: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 07:59:27,857: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 07:59:27,864: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 07:59:27,868: INFO:common:created directory at: artifacts]
+[2026-03-14 07:59:27,870: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:00:05,732: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:00:05,735: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:00:05,742: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:00:05,746: INFO:common:created directory at: artifacts]
+[2026-03-14 08:00:05,749: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:00:51,386: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:00:51,390: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:00:51,397: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:00:51,401: INFO:common:created directory at: artifacts]
+[2026-03-14 08:00:51,404: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:00:51,547: INFO:2274935628:artifacts/data_ingestion/WineQT.csv download! with following info: 
+Content-type: application/vnd.ms-excel
+Content-length: 78057
+Last-modified: Sun, 08 Mar 2026 23:08:58 GMT
+
+]
+[2026-03-14 08:01:19,142: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:01:19,146: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:01:19,153: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:01:19,157: INFO:common:created directory at: artifacts]
+[2026-03-14 08:01:19,160: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:01:19,163: INFO:2274935628:File already exists of size: ~ 76 KB]
+[2026-03-14 08:03:40,931: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:03:40,934: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:03:40,942: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:03:40,947: INFO:common:created directory at: artifacts]
+[2026-03-14 08:03:40,949: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:03:40,953: INFO:635342917:File already exists of size: ~ 76 KB]
+[2026-03-14 08:04:19,699: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:04:19,703: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:04:19,709: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:04:19,712: INFO:common:created directory at: artifacts]
+[2026-03-14 08:04:19,715: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:04:19,717: INFO:4159884592:File already exists of size: ~ 76 KB]
+[2026-03-14 08:04:19,726: INFO:4159884592:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-14 08:40:03,752: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-14 08:40:03,762: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 08:40:03,764: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 08:40:03,765: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 08:40:03,770: INFO:common:created directory at: artifacts]
+[2026-03-14 08:40:03,772: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 08:40:04,159: INFO:data_ingestion:artifacts/data_ingestion/WineQT.csv download! with following info: 
+Content-type: application/vnd.ms-excel
+Content-length: 78057
+Last-modified: Sun, 08 Mar 2026 23:08:58 GMT
+
+]
+[2026-03-14 08:40:04,159: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-14 08:40:04,159: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]

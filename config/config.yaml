@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: file:///c:/Users/Its%20KaMrAN/Documents/Linux%20Docker/Wine%20Prediction%20ML/research/WineQT.csv
+  local_data_file: artifacts/data_ingestion/WineQT.csv
+  unzip_dir: artifacts/data_ingestion
