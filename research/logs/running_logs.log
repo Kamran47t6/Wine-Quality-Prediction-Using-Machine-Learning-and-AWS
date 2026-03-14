@@ -1,0 +1,8 @@
+[2026-03-15 03:26:59,732: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-15 03:26:59,736: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-15 03:26:59,744: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-15 03:26:59,746: INFO:common:created directory at: artifacts]
+[2026-03-15 03:26:59,752: INFO:common:created directory at: artifacts/data_transformation]
+[2026-03-15 03:26:59,863: INFO:4261508835:Splited data into training and test sets]
+[2026-03-15 03:26:59,866: INFO:4261508835:(857, 13)]
+[2026-03-15 03:26:59,870: INFO:4261508835:(286, 13)]

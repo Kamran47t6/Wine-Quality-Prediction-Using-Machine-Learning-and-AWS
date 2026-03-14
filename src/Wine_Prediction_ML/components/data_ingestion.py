@@ -5,6 +5,7 @@ from pathlib import Path
 import os
 import zipfile
 from urllib import request
+import pandas as pd
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
@@ -42,3 +43,13 @@ class DataIngestion:
                 logger.info(f"Copied {self.config.local_data_file} to {destination}")
             else:
                 logger.info(f"File already in destination: {destination}")
+        
+        # Clean up the extracted CSV: remove 'Id' column if it exists
+        csv_files = [f for f in os.listdir(unzip_path) if f.endswith('.csv')]
+        for csv_file in csv_files:
+            csv_path = os.path.join(unzip_path, csv_file)
+            df = pd.read_csv(csv_path)
+            if 'Id' in df.columns:
+                df = df.drop(columns=['Id'])
+                df.to_csv(csv_path, index=False)
+                logger.info(f"Removed 'Id' column from {csv_file}")

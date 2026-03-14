@@ -1,6 +1,9 @@
 from pathlib import Path
 
-CONFIG_FILE_PATH=Path("config/config.yaml")
-PARAMS_FILE_PATH=Path("params.yaml")
-SCHEMA_FILE_PATH=Path("schema.yaml")
+# Get the project root directory (parent of src directory)
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent
+
+CONFIG_FILE_PATH = PROJECT_ROOT / "config/config.yaml"
+PARAMS_FILE_PATH = PROJECT_ROOT / "params.yaml"
+SCHEMA_FILE_PATH = PROJECT_ROOT / "schema.yaml"
 

@@ -91,3 +91,53 @@ x==========x]
 [2026-03-14 09:24:18,458: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
 
 x==========x]
+[2026-03-15 03:24:33,306: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-15 03:24:33,310: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-15 03:24:33,313: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-15 03:24:33,352: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-15 03:24:33,354: INFO:common:created directory at: artifacts]
+[2026-03-15 03:24:33,355: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-15 03:24:33,712: INFO:data_ingestion:artifacts/data_ingestion/WineQT.csv download! with following info: 
+Content-type: application/vnd.ms-excel
+Content-length: 78057
+Last-modified: Sun, 08 Mar 2026 23:08:58 GMT
+
+]
+[2026-03-15 03:24:33,713: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-15 03:24:33,713: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-15 03:24:33,714: INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-15 03:24:33,716: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-15 03:24:33,720: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-15 03:24:33,722: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-15 03:24:33,724: INFO:common:created directory at: artifacts]
+[2026-03-15 03:24:33,725: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-15 03:24:33,779: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-15 03:24:33,782: INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-15 03:24:33,802: INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-15 03:29:01,586: INFO:stage_01_data_ingestion:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-15 03:29:01,591: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-15 03:29:01,593: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-15 03:29:01,614: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-15 03:29:01,624: INFO:common:created directory at: artifacts]
+[2026-03-15 03:29:01,633: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-15 03:29:01,643: INFO:data_ingestion:File already exists of size: ~ 76 KB]
+[2026-03-15 03:29:01,658: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-15 03:29:01,748: INFO:data_ingestion:Removed 'Id' column from WineQT.csv]
+[2026-03-15 03:29:01,748: INFO:stage_01_data_ingestion:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-15 03:29:10,816: INFO:stage_02_data_validation:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-15 03:29:10,828: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-15 03:29:10,859: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-15 03:29:10,896: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-15 03:29:10,905: INFO:common:created directory at: artifacts]
+[2026-03-15 03:29:10,913: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-15 03:29:10,986: INFO:stage_02_data_validation:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
