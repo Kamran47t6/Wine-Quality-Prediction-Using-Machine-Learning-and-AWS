@@ -61,3 +61,33 @@ Last-modified: Sun, 08 Mar 2026 23:08:58 GMT
 [2026-03-14 08:40:04,159: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2026-03-14 09:03:20,859: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 09:03:20,863: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 09:03:20,868: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 09:03:20,871: INFO:common:created directory at: artifacts]
+[2026-03-14 09:03:20,873: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-14 09:24:17,687: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-14 09:24:17,737: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 09:24:17,788: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 09:24:17,821: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 09:24:17,863: INFO:common:created directory at: artifacts]
+[2026-03-14 09:24:17,872: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-14 09:24:18,404: INFO:data_ingestion:artifacts/data_ingestion/WineQT.csv download! with following info: 
+Content-type: application/vnd.ms-excel
+Content-length: 78057
+Last-modified: Sun, 08 Mar 2026 23:08:58 GMT
+
+]
+[2026-03-14 09:24:18,405: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-14 09:24:18,406: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-14 09:24:18,406: INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-14 09:24:18,408: INFO:common:yaml file: config\config.yaml loaded successfully]
+[2026-03-14 09:24:18,409: INFO:common:yaml file: params.yaml loaded successfully]
+[2026-03-14 09:24:18,413: INFO:common:yaml file: schema.yaml loaded successfully]
+[2026-03-14 09:24:18,415: INFO:common:created directory at: artifacts]
+[2026-03-14 09:24:18,416: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-14 09:24:18,458: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
