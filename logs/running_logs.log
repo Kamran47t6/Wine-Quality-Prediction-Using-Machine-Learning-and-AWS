@@ -668,3 +668,216 @@ x==========x]
 [2026-03-16 11:12:20,851: INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
 
 x==========x]
+[2026-03-16 12:04:04,803: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-16 12:04:04,809: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:04:04,813: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:04:04,820: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:04:04,823: INFO:common:created directory at: artifacts]
+[2026-03-16 12:04:04,824: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-16 12:04:04,825: INFO:data_ingestion:File already exists of size: ~ 66 KB]
+[2026-03-16 12:04:04,826: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-16 12:04:04,886: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:04:04,886: INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-16 12:04:04,892: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:04:04,894: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:04:04,900: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:04:04,903: INFO:common:created directory at: artifacts]
+[2026-03-16 12:04:04,904: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-16 12:04:04,918: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:04:04,922: INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-16 12:04:04,935: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:04:04,938: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:04:04,943: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:04:04,945: INFO:common:created directory at: artifacts]
+[2026-03-16 12:04:04,946: INFO:common:created directory at: artifacts/data_transformation]
+[2026-03-16 12:04:04,991: INFO:data_transformation:Splited data into training and test sets]
+[2026-03-16 12:04:04,991: INFO:data_transformation:(857, 12)]
+[2026-03-16 12:04:04,992: INFO:data_transformation:(286, 12)]
+[2026-03-16 12:04:04,993: INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:04:04,994: INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-16 12:04:05,002: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:04:05,007: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:04:05,012: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:04:05,019: INFO:common:created directory at: artifacts]
+[2026-03-16 12:04:05,020: INFO:common:created directory at: artifacts/model_trainer]
+[2026-03-16 12:04:05,086: INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:04:05,087: INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-16 12:04:05,093: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:04:05,095: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:04:05,100: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:04:05,102: INFO:common:created directory at: artifacts]
+[2026-03-16 12:04:05,103: INFO:common:created directory at: artifacts/model_evaluation]
+[2026-03-16 12:04:05,152: INFO:common:json file saved at: artifacts\model_evaluation\metric.json]
+[2026-03-16 12:04:05,153: INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:31,004: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-16 12:32:31,009: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:31,011: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:31,018: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:31,022: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:31,023: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-16 12:32:31,024: INFO:data_ingestion:File already exists of size: ~ 66 KB]
+[2026-03-16 12:32:31,025: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-16 12:32:31,043: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:31,049: INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-16 12:32:31,064: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:31,066: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:31,074: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:31,077: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:31,079: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-16 12:32:31,095: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:31,099: INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-16 12:32:31,111: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:31,123: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:31,126: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:31,131: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:31,132: INFO:common:created directory at: artifacts/data_transformation]
+[2026-03-16 12:32:31,190: INFO:data_transformation:Splited data into training and test sets]
+[2026-03-16 12:32:31,194: INFO:data_transformation:(857, 12)]
+[2026-03-16 12:32:31,195: INFO:data_transformation:(286, 12)]
+[2026-03-16 12:32:31,197: INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:31,197: INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-16 12:32:31,205: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:31,207: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:31,214: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:31,223: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:31,225: INFO:common:created directory at: artifacts/model_trainer]
+[2026-03-16 12:32:31,329: INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:31,329: INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-16 12:32:31,337: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:31,343: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:31,351: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:31,357: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:31,358: INFO:common:created directory at: artifacts/model_evaluation]
+[2026-03-16 12:32:31,446: INFO:common:json file saved at: artifacts\model_evaluation\metric.json]
+[2026-03-16 12:32:31,447: INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:49,707: INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2026-03-16 12:32:49,716: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:49,738: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:49,777: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:49,793: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:49,796: INFO:common:created directory at: artifacts/data_ingestion]
+[2026-03-16 12:32:49,799: INFO:data_ingestion:File already exists of size: ~ 66 KB]
+[2026-03-16 12:32:49,809: INFO:data_ingestion:File already in destination: artifacts/data_ingestion\WineQT.csv]
+[2026-03-16 12:32:49,856: INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:49,859: INFO:main:>>>>>> stage Data Validation stage started <<<<<<]
+[2026-03-16 12:32:49,876: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:49,881: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:49,893: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:49,896: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:49,897: INFO:common:created directory at: artifacts/data_validation]
+[2026-03-16 12:32:49,942: INFO:main:>>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:49,945: INFO:main:>>>>>> stage Data Transformation stage started <<<<<<]
+[2026-03-16 12:32:49,964: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:49,976: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:49,980: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:49,991: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:49,994: INFO:common:created directory at: artifacts/data_transformation]
+[2026-03-16 12:32:50,076: INFO:data_transformation:Splited data into training and test sets]
+[2026-03-16 12:32:50,077: INFO:data_transformation:(857, 12)]
+[2026-03-16 12:32:50,079: INFO:data_transformation:(286, 12)]
+[2026-03-16 12:32:50,081: INFO:main:>>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:50,089: INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2026-03-16 12:32:50,099: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:50,108: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:50,114: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:50,116: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:50,123: INFO:common:created directory at: artifacts/model_trainer]
+[2026-03-16 12:32:50,192: INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2026-03-16 12:32:50,195: INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2026-03-16 12:32:50,204: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\config\config.yaml loaded successfully]
+[2026-03-16 12:32:50,207: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\params.yaml loaded successfully]
+[2026-03-16 12:32:50,214: INFO:common:yaml file: C:\Users\Its KaMrAN\Documents\Linux Docker\Wine Prediction ML\schema.yaml loaded successfully]
+[2026-03-16 12:32:50,216: INFO:common:created directory at: artifacts]
+[2026-03-16 12:32:50,216: INFO:common:created directory at: artifacts/model_evaluation]
+[2026-03-16 12:32:50,290: INFO:common:json file saved at: artifacts\model_evaluation\metric.json]
+[2026-03-16 12:32:50,292: INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2026-03-16 13:39:38,852: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.5:8080]
+[2026-03-16 13:39:38,867: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2026-03-16 13:39:47,150: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:39:47] "GET / HTTP/1.1" 200 -]
+[2026-03-16 13:39:47,452: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:39:47] "[36mGET /static/css/modern-theme.css HTTP/1.1[0m" 304 -]
+[2026-03-16 13:39:47,702: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:39:47] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:41:11,541: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:11] "POST /predict HTTP/1.1" 200 -]
+[2026-03-16 13:41:11,647: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:11] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2026-03-16 13:41:11,699: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:11] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2026-03-16 13:41:11,716: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:11] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2026-03-16 13:41:11,722: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:11] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2026-03-16 13:41:12,644: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:12] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:41:12,690: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:12] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2026-03-16 13:41:12,762: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:12] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-03-16 13:41:30,155: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:30] "POST /predict HTTP/1.1" 200 -]
+[2026-03-16 13:41:30,444: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -]
+[2026-03-16 13:41:30,545: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:30] "[36mGET /static/css2/nunito-font.css HTTP/1.1[0m" 304 -]
+[2026-03-16 13:41:30,564: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:30] "[36mGET /static/css2/style.css HTTP/1.1[0m" 304 -]
+[2026-03-16 13:41:30,577: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2026-03-16 13:41:31,336: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:31] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:41:31,387: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:31] "[36mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 304 -]
+[2026-03-16 13:41:31,403: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:41:31] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-03-16 13:43:43,264: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.5:8080]
+[2026-03-16 13:43:43,265: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2026-03-16 13:44:19,116: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:44:19] "GET / HTTP/1.1" 200 -]
+[2026-03-16 13:44:20,180: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:44:20] "GET /static/css/modern-theme.css HTTP/1.1" 200 -]
+[2026-03-16 13:44:24,752: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:44:24] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:44:25,070: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:44:25] "GET /static/assets/favicon.ico HTTP/1.1" 200 -]
+[2026-03-16 13:45:14,391: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:14] "POST /predict HTTP/1.1" 200 -]
+[2026-03-16 13:45:16,873: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:16] "GET /static/css/styles.css HTTP/1.1" 200 -]
+[2026-03-16 13:45:16,919: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:16] "GET /static/css2/nunito-font.css HTTP/1.1" 200 -]
+[2026-03-16 13:45:16,936: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:16] "GET /static/css2/style.css HTTP/1.1" 200 -]
+[2026-03-16 13:45:16,955: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:16] "GET /static/js/scripts.js HTTP/1.1" 200 -]
+[2026-03-16 13:45:18,055: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:18] "GET /static/assets/img/form-v9.jpg HTTP/1.1" 200 -]
+[2026-03-16 13:45:18,363: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:18] "[33mGET /static/fonts/Nunito/Nunito-Bold.ttf HTTP/1.1[0m" 404 -]
+[2026-03-16 13:45:18,479: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:45:18] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:47:07,108: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.5:8080]
+[2026-03-16 13:47:07,111: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2026-03-16 13:48:16,264: INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.100.5:8080]
+[2026-03-16 13:48:16,269: INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2026-03-16 13:48:22,497: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:48:22] "GET / HTTP/1.1" 200 -]
+[2026-03-16 13:48:22,778: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:48:22] "GET /static/css/modern-theme.css?v=2.0 HTTP/1.1" 200 -]
+[2026-03-16 13:48:22,905: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:48:22] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
+[2026-03-16 13:49:11,496: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:11] "POST /predict HTTP/1.1" 200 -]
+[2026-03-16 13:49:11,617: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:11] "[36mGET /static/css/modern-theme.css?v=2.0 HTTP/1.1[0m" 304 -]
+[2026-03-16 13:49:11,679: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:11] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -]
+[2026-03-16 13:49:28,649: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:28] "GET / HTTP/1.1" 200 -]
+[2026-03-16 13:49:28,832: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:28] "[36mGET /static/css/modern-theme.css?v=2.0 HTTP/1.1[0m" 304 -]
+[2026-03-16 13:49:29,201: INFO:_internal:127.0.0.1 - - [16/Mar/2026 13:49:29] "[33mGET /static/assets/img/wine.jpg HTTP/1.1[0m" 404 -]
