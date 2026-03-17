@@ -1,6 +1,6 @@
 FROM python:3.12.4-slim-bookworm
 
-RUN apt update -y && apt install awscli -y
+RUN apt-get update -y && apt-get install -y awscli && apt-get clean
 WORKDIR /app
 
 COPY . /app
