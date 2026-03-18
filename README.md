@@ -70,10 +70,15 @@ Wine_Prediction_ML/
 │   └── cicd.yaml
 │
 ├── artifacts/
-├── config/
+├── config/config.yaml
 ├── logs/
 ├── research/
-│
+|   ├── 01_data_ingestion.ipynb
+|   ├── 02_data_validation.ipynb
+|   ├── 03_data_transformation.ipynb
+|   ├── 04_model_trainer.ipynb
+|   ├── 05_model_evaluation.ipynb
+|   ├── Experiment.ipynb
 ├── src/Wine_Prediction_ML/
 │   ├── components/
 │   ├── config/
@@ -83,9 +88,13 @@ Wine_Prediction_ML/
 │   └── utils/
 │
 ├── static/
+│   ├── assets/
+│   ├── css/
+│   ├── css2/
+│   ├── js/
 ├── templates/
 │   └── index.html
-│
+│   └── results.html
 ├── app.py
 ├── main.py
 ├── params.yaml
@@ -93,6 +102,7 @@ Wine_Prediction_ML/
 ├── requirements.txt
 ├── Dockerfile
 └── setup.py
+└── demo.py
 
 ---
 
